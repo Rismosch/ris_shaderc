@@ -1,4 +1,4 @@
-All files in `./external/` are not mine and are licensed under their respective licenses.
+All files in `./third_party/` are not mine and are licensed under their respective licenses.
 
 Project: shaderc  
 URL: https://github.com/google/shaderc  
