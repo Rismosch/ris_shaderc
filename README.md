@@ -3,10 +3,9 @@ Rust bindings for [shaderc](https://github.com/google/shaderc).
 
 This repo exists because I was unsatisfied with existing Rust bindings for shaderc.
 
-## License infos
+# Dependencies:
 
-Project: shaderc  
-URL: https://github.com/google/shaderc  
-License: Apache-2.0  
-Upstream version: 2024.4  
-Local modifications: None  
+- rustc/cargo
+- C++ 17 compiler.
+- CMake 3.14 or later
+- Python 3

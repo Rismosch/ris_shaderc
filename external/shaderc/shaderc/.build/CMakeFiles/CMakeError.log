@@ -1,0 +1,28 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_FALLTHROUGH_WARNING failed with the following output:
+Change Dir: C:/Users/Rismosch/source/repos/ris_shaderc/shaderc/shaderc/.build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6d49c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R)-Build-Engine, Version 17.2.1+52cd2da31 fr .NET Framework
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31329 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_SUPPORTS_FALLTHROUGH_WARNING /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_6d49c.dir\Debug\\" /Fd"cmTC_6d49c.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -Wimplicit-fallthrough C:\Users\Rismosch\source\repos\ris_shaderc\shaderc\shaderc\.build\CMakeFiles\CMakeTmp\src.cxx
+cl : command line error D8021: invalid numeric argument '/Wimplicit-fallthrough' [C:\Users\Rismosch\source\repos\ris_shaderc\shaderc\shaderc\.build\CMakeFiles\CMakeTmp\cmTC_6d49c.vcxproj]
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_EXTRA_SEMI_WARNING failed with the following output:
+Change Dir: C:/Users/Rismosch/source/repos/ris_shaderc/shaderc/shaderc/.build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c05e1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R)-Build-Engine, Version 17.2.1+52cd2da31 fr .NET Framework
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31329 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_SUPPORTS_EXTRA_SEMI_WARNING /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_c05e1.dir\Debug\\" /Fd"cmTC_c05e1.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -Wextra-semi C:\Users\Rismosch\source\repos\ris_shaderc\shaderc\shaderc\.build\CMakeFiles\CMakeTmp\src.cxx
+cl : command line error D8021: invalid numeric argument '/Wextra-semi' [C:\Users\Rismosch\source\repos\ris_shaderc\shaderc\shaderc\.build\CMakeFiles\CMakeTmp\cmTC_c05e1.vcxproj]
+
+
+Source file was:
+int main() { return 0; }
